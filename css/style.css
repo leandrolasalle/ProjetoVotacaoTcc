@@ -225,6 +225,32 @@ footer {
     font-size: 1.1rem;
 }
 
+
+.button {
+    text-decoration: none;
+    background: var(--card-bg-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-top: 3px solid var(--accent-color-2);
+    transition: transform var(--transition-fast), background-color var(--transition-fast);
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: translateY(-8px);
+    background-color: rgba(55, 65, 81, 0.7);
+}
+
+.button h4 {
+    text-align: center;
+    color: var(--accent-color-2);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
 .content-card ul {
     list-style: none;
 }
