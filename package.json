@@ -9,8 +9,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
+    "@semaphore-protocol/contracts": "^4.13.0-beta.1",
+    "@semaphore-protocol/core": "^4.13.0-beta.1",
+    "@semaphore-protocol/group": "^4.13.0-beta.1",
+    "@semaphore-protocol/identity": "^4.13.0-beta.1",
+    "@semaphore-protocol/proof": "^4.13.0-beta.1",
     "express": "^5.1.0"
-  }
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "ethers": "^5.8.0",
+    "hardhat": "^2.26.3"
+  },
+  "description": ""
 }
