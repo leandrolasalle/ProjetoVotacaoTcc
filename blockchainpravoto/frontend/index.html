@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Votação - 30 Candidatos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./style.css" />
+  <!-- Ethers v6 (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.13.2/dist/ethers.umd.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Votação On-chain</h1>
+
+    <div class="card">
+      <button id="connectBtn">Conectar Carteira</button>
+      <p id="account"></p>
+      <p class="hint">Conecte a MetaMask na rede Localhost 8545</p>
+    </div>
+
+    <div class="card">
+      <h2>Votar</h2>
+      <label for="email">Seu e-mail:</label>
+      <input type="email" id="email" placeholder="exemplo@dominio.com" />
+      <label for="candidate">Candidato:</label>
+      <select id="candidate"></select>
+      <button id="voteBtn">Enviar Voto</button>
+      <p id="status"></p>
+    </div>
+
+    <div class="card">
+      <h2>Resultados</h2>
+      <ul id="results"></ul>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
