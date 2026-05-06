@@ -138,23 +138,23 @@ Acesse: http://localhost:3000
 
 ## 🗳️ Como Usar
 
-Fluxo de uma votação:
-### 1. Conecte sua carteira
+### Fluxo de uma votação:
+
+#### 1. Conecte sua carteira
 - Clique em "Conectar Carteira"
 - Autorize a conexão no MetaMask
-### 2. Escolha um candidato
+
+#### 2. Escolha um candidato
 - Selecione entre os 30 candidatos disponíveis
 - Registre seu e-mail
 - Digite um e-mail que ainda não realizou voto (usado para evitar voto duplicado)
 
-### 3. Confirme o voto
-
+#### 3. Confirme o voto
 - Clique em "Enviar Voto"
-
 - Confirme a transação no MetaMask
 
-### 4. Acompanhe os resultados
-A lista de votos é atualizada automaticamente
+#### 4. Acompanhe os resultados
+- A lista de votos é atualizada automaticamente
 
 ## 🧪 Testando o Sistema
 
