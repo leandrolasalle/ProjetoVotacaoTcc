@@ -37,18 +37,20 @@ contract Voting {
         return _candidates[index];
     }
 
-    function getCandidates() external view returns (string[] memory out) {
-        out = new string[](CANDIDATES_COUNT);
+    function getCandidates() external view returns (string[] memory) {
+        string[] memory out = new string[](CANDIDATES_COUNT);
         for (uint8 i = 0; i < CANDIDATES_COUNT; i++) {
             out[i] = _candidates[i];
         }
+        return out;
     }
 
-    function getAllVotes() external view returns (uint256[] memory out) {
-        out = new uint256[](CANDIDATES_COUNT);
+    function getAllVotes() external view returns (uint256[] memory) {
+        uint256[] memory out = new uint256[](CANDIDATES_COUNT);
         for (uint8 i = 0; i < CANDIDATES_COUNT; i++) {
             out[i] = _votes[i];
         }
+        return out;
     }
 
     function emailHasVoted(string calldata email) external view returns (bool) {
