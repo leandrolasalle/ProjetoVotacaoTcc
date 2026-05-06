@@ -105,11 +105,11 @@ Voting deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 ```
 
 ### 6. Configure o MetaMask
+#### Adicionar rede local:
 Adicionar rede local:
-Abra o MetaMask
-
-Clique na rede atual → "Add Network" → "Add a network manually"
-
+- Abra o MetaMask
+- Clique na rede atual → "Add Network" → "Add a network manually"
+```
 Network Name: Hardhat Local
 
 New RPC URL: http://localhost:8545
@@ -117,8 +117,13 @@ New RPC URL: http://localhost:8545
 Chain ID: 1337
 
 Currency Symbol: ETH
+```
 
 Importar conta (opcional, mas recomendado):
+- Copie a chave privada de uma conta do terminal npx hardhat node
+- No MetaMask: "Import Account" → cole a chave privada
+
+#### Importar conta (opcional, mas recomendado):
 Copie a chave privada de uma conta do terminal npx hardhat node
 
 No MetaMask: "Import Account" → cole a chave privada
