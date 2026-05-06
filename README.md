@@ -18,7 +18,7 @@ Sistema de votação descentralizada baseado em blockchain, desenvolvido como Tr
 - ✅ **30 candidatos** - suporte para até 30 candidatos simultâneos
 
 ## 🏗️ Arquitetura do Sistema
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │                  Frontend (HTML/CSS/JS)                     │
 │                  http://localhost:3000                      │
