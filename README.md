@@ -218,7 +218,7 @@ npx hardhat compile
 
 ## 🎨 Versão de Apresentação
 
-Além da implementação completa com blockchain, o repositório também conta com uma **apresentação** (`blockchain_apresentacao/`) que contém uma interface para visualizar uma explicação da tese do TCC de forma visual e interativa, com uma simulação visual do fluxo do sistema real.
+Além da implementação completa com blockchain, o repositório também conta com uma **apresentação** (`blockchain_apresentacao/`) que contém uma interface para visualizar uma explicação da tese do TCC de forma visual e interativa, além de uma simulação visual do fluxo do sistema real.
 
 ### Como rodar a versão de apresentação
 ```bash
