@@ -3,7 +3,6 @@
 [![Solidity](https://img.shields.io/badge/Solidity-^0.8.28-blue)](https://soliditylang.org/)
 [![Hardhat](https://img.shields.io/badge/Hardhat-^2.26.3-yellow)](https://hardhat.org/)
 [![Ethers](https://img.shields.io/badge/Ethers-^6.15.0-purple)](https://ethers.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ## 📋 Sobre o Projeto
 
