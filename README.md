@@ -60,7 +60,6 @@ Sistema de votação descentralizada baseado em blockchain, desenvolvido como Tr
 Antes de começar, você vai precisar ter instalado:
 
 - [Node.js](https://nodejs.org/) (versão 20.x LTS recomendada)
-- [Git](https://git-scm.com/)
 - [MetaMask](https://metamask.io/) (extensão do navegador)
 
 ## 🔧 Instalação e Configuração do Sistema de Votação
