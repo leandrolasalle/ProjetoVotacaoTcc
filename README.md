@@ -106,7 +106,6 @@ Voting deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 
 ### 6. Configure o MetaMask
 #### Adicionar rede local:
-Adicionar rede local:
 - Abra o MetaMask
 - Clique na rede atual → "Add Network" → "Add a network manually"
 ```
@@ -119,13 +118,8 @@ Chain ID: 1337
 Currency Symbol: ETH
 ```
 
-Importar conta (opcional, mas recomendado):
-- Copie a chave privada de uma conta do terminal npx hardhat node
-- No MetaMask: "Import Account" → cole a chave privada
-
 #### Importar conta (opcional, mas recomendado):
 Copie a chave privada de uma conta do terminal npx hardhat node
-
 No MetaMask: "Import Account" → cole a chave privada
 
 ### 7. Configure o frontend
@@ -224,7 +218,7 @@ npx hardhat compile
 
 ## 🎨 Versão de Apresentação
 
-Além da implementação completa com blockchain, o repositório também conta com uma **versão de apresentação** (`blockchain_apresentacao/`) que contém uma interface de apresentação do TCC de forma visual e interativa.
+Além da implementação completa com blockchain, o repositório também conta com uma **apresentação** (`blockchain_apresentacao/`) que contém uma interface para visualizar uma explicação da tese do TCC de forma visual e interativa, com uma simulação visual do fluxo do sistema real.
 
 ### Como rodar a versão de apresentação
 ```bash
