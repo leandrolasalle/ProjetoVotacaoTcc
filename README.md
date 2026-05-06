@@ -20,28 +20,28 @@ Sistema de votação descentralizada baseado em blockchain, desenvolvido como Tr
 ## 🏗️ Arquitetura do Sistema
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│ Frontend (React) │
-│ http://localhost:3000 │
+│              Frontend (HTML/CSS/JS)                         │
+│                  http://localhost:3000                      │
 └─────────────────────────────────────────────────────────────┘
-│
-▼
+                              │
+                              ▼
 ┌─────────────────────────────────────────────────────────────┐
-│ MetaMask (Wallet) │
-│ Conecta usuário à blockchain │
+│                   MetaMask (Wallet)                         │
+│              Conecta usuário à blockchain                   │
 └─────────────────────────────────────────────────────────────┘
-│
-▼
+                              │
+                              ▼
 ┌─────────────────────────────────────────────────────────────┐
-│ Blockchain Local (Hardhat) │
-│ http://localhost:8545 │
-│ │
-│ ┌─────────────────────────────────────────────────────┐ │
-│ │ Smart Contract: Voting.sol │ │
-│ │ - Registrar votos │ │
-│ │ - Consultar candidatos │ │
-│ │ - Apurar resultados │ │
-│ │ - Impedir voto duplicado │ │
-│ └─────────────────────────────────────────────────────┘ │
+│              Blockchain Local (Hardhat)                     │
+│                 http://localhost:8545                       │
+│                                                             │
+│  ┌─────────────────────────────────────────────────────┐    │
+│  │           Smart Contract: Voting.sol                │    │
+│  │  - Registrar votos                                  │    │
+│  │  - Consultar candidatos                             │    │
+│  │  - Apurar resultados                                │    │
+│  │  - Impedir voto duplicado                           │    │
+│  └─────────────────────────────────────────────────────┘    │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -60,7 +60,6 @@ Sistema de votação descentralizada baseado em blockchain, desenvolvido como Tr
 Antes de começar, você vai precisar ter instalado:
 
 - [Node.js](https://nodejs.org/) (versão 20.x LTS recomendada)
-- [Git](https://git-scm.com/)
 - [MetaMask](https://metamask.io/) (extensão do navegador)
 
 ## 🔧 Instalação e Configuração do Sistema de Votação
