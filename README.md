@@ -1,4 +1,4 @@
-# Blockchain Para Voto - Sistema de Votação Descentralizada
+# Blockchain Para Voto: Sistema de Votação Descentralizada
 
 [![Solidity](https://img.shields.io/badge/Solidity-^0.8.28-blue)](https://soliditylang.org/)
 [![Hardhat](https://img.shields.io/badge/Hardhat-^2.26.3-yellow)](https://hardhat.org/)
