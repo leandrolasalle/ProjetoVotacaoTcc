@@ -158,14 +158,14 @@ A lista de votos é atualizada automaticamente
 
 ## 🧪 Testando o Sistema
 
-## Voto bem-sucedido:
+### Voto bem-sucedido:
 - Conectar carteira
 - Digitar e-mail teste@exemplo.com
 - Escolher candidato "00 - Candidato 01"
 - Confirmar transação
 - Verificar que o voto foi adicionado
 
-## Impedimento de voto duplicado:
+### Impedimento de voto duplicado:
 - Tentar votar novamente com o mesmo e-mail
 - O contrato deve rejeitar com erro: "Este e-mail ja votou"
 
