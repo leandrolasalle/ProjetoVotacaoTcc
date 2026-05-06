@@ -18,9 +18,9 @@ Sistema de votação descentralizada baseado em blockchain, desenvolvido como Tr
 - ✅ **30 candidatos** - suporte para até 30 candidatos simultâneos
 
 ## 🏗️ Arquitetura do Sistema
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
-│              Frontend (HTML/CSS/JS)                         │
+│                  Frontend (HTML/CSS/JS)                     │
 │                  http://localhost:3000                      │
 └─────────────────────────────────────────────────────────────┘
                               │
@@ -138,34 +138,34 @@ Acesse: http://localhost:3000
 
 ## 🗳️ Como Usar
 
-Fluxo de uma votação:
-### 1. Conecte sua carteira
+### Fluxo de uma votação:
+
+#### 1. Conecte sua carteira
 - Clique em "Conectar Carteira"
 - Autorize a conexão no MetaMask
-### 2. Escolha um candidato
+
+#### 2. Escolha um candidato
 - Selecione entre os 30 candidatos disponíveis
 - Registre seu e-mail
 - Digite um e-mail que ainda não realizou voto (usado para evitar voto duplicado)
 
-### 3. Confirme o voto
-
+#### 3. Confirme o voto
 - Clique em "Enviar Voto"
-
 - Confirme a transação no MetaMask
 
-### 4. Acompanhe os resultados
-A lista de votos é atualizada automaticamente
+#### 4. Acompanhe os resultados
+- A lista de votos é atualizada automaticamente
 
 ## 🧪 Testando o Sistema
 
-## Voto bem-sucedido:
+### Voto bem-sucedido:
 - Conectar carteira
 - Digitar e-mail teste@exemplo.com
 - Escolher candidato "00 - Candidato 01"
 - Confirmar transação
 - Verificar que o voto foi adicionado
 
-## Impedimento de voto duplicado:
+### Impedimento de voto duplicado:
 - Tentar votar novamente com o mesmo e-mail
 - O contrato deve rejeitar com erro: "Este e-mail ja votou"
 
