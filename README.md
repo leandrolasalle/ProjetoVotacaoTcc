@@ -20,7 +20,7 @@ Sistema de votação descentralizada baseado em blockchain, desenvolvido como Tr
 ## 🏗️ Arquitetura do Sistema
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│              Frontend (HTML/CSS/JS puro)                    │
+│              Frontend (HTML/CSS/JS)                         │
 │                  http://localhost:3000                      │
 └─────────────────────────────────────────────────────────────┘
                               │
